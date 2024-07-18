@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+html, body {
+  height: 100%;
+}
+
+.icono {
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.btn:disabled {
+  background-color: #E0E0E0 !important;
+  color: #A6A6A6 !important;
+}
+
+p,
+div,
+cell,
+.col,
+.row, h1, h2, h3, h4, h5,
+button,
+label,
+th,
+td,
+.mat-option-text,
+.mat-card-subtitle,
+.mat-card-content,
+.mat-typography,
+.mat-typography {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.normalText {
+  font-size: 14px !important;
+}
+
+.cara {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.grandesito {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.btn-guia .mat-icon-button {
+  width: auto !important;
+}
+
+.table-if .mat-form-field-wrapper {
+  padding-bottom: 0 !important;
+}
+
+.menu-generales .mat-expansion-panel-body {
+  padding: 0 !important;
+}
+
+.scroll-50 {
+  display: inline-block;
+  overflow: auto;
+  height: 50vh !important;
+}
+
+.scroll-table {
+  display: block;
+  overflow: auto;
+  height: 45vh !important;
+}
+
+.scroll-table-3 {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 30vh !important;
+}
+
+.receta-table .mat-form-field-wrapper {
+  padding-bottom: 0 !important;
+}
